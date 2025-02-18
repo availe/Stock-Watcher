@@ -1,10 +1,20 @@
-﻿namespace Stock_Watcher;
+﻿using Stock_Watcher.Models;
+
+namespace Stock_Watcher;
 
 class Program {
     private static void Main()
     {
-        string userInput;
+        Watchlist watchlist = Watchlist.Instance;
 
+        Console.WriteLine(
+            "Stock Watchlist Menu:\n" +
+            "1) Add a stock\n" +
+            "2) Remove a stock\n" +
+            "3) View watchlist\n" +
+            "4) Exit program\n");
+        
+        string userInput;
         do
         {
             Console.WriteLine("Enter stock ticker: ");
