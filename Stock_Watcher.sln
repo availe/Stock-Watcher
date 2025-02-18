@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock Watcher", "Stock Watcher\Stock Watcher.csproj", "{8C33EBEC-498E-4346-ACD1-BBE110A963DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock_Watcher", "Stock_Watcher\Stock_Watcher.csproj", "{8C33EBEC-498E-4346-ACD1-BBE110A963DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
