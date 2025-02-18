@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace Stock_Watcher;
+namespace Stock_Watcher.Models;
 
 public class Watchlist
 {

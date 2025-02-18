@@ -1,4 +1,4 @@
-namespace Stock_Watcher;
+namespace Stock_Watcher.Models;
 
 public class Stock
 {
