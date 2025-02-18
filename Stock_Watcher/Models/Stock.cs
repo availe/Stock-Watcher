@@ -8,11 +8,6 @@ public class Stock
 
     public Stock(string ticker)
     {
-        if (string.IsNullOrWhiteSpace(ticker))
-        {
-            throw new ArgumentException("Ticker can not be null or empty.");
-        }
-
         _ticker = ticker.Trim().ToUpper();
         _name = "";
         _currentPrice = 0;
