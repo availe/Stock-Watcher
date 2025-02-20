@@ -2,7 +2,11 @@ namespace Stock_Watcher.Commands;
 
 public class CommandInvoker
 {
+    private static readonly Lazy<CommandInvoker> _instance = new(() => new CommandInvoker());
     private readonly Stack<ICommand> _commandHistory = new();
+
+    private CommandInvoker() { }
+    public static CommandInvoker Instance => _instance.Value;
 
     public void ExecuteCommand(ICommand command)
     {
