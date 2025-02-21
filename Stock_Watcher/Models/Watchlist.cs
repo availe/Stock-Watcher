@@ -8,8 +8,10 @@ public class Watchlist
     private readonly ConcurrentDictionary<string, Stock> _stocks = new();
 
     private Watchlist() {}
-
+    
     public static Watchlist Instance => _instance.Value;
+
+    public IEnumerable<string> Stocks => _stocks.Keys;
 
     public bool AddStock(string ticker)
     {
